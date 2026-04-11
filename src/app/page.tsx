@@ -256,7 +256,7 @@ export default function Home() {
         <div className="section-inner" style={{ textAlign: 'center' }}>
           <p className="section-label section-label-light">PYF MUN 2026</p>
           <h2 className="section-title" style={{ color: 'white', marginBottom: '1rem' }}>Ready to Participate?</h2>
-          <p style={{ color: 'rgba(255,255,255,.8)', fontSize: '1.05rem', marginBottom: '2.5rem', max: '500px' }}>
+          <p style={{ color: 'rgba(255,255,255,.8)', fontSize: '1.05rem', marginBottom: '2.5rem', maxWidth: '500px' }}>
             PYF MUN 2026 — Online · 23 & 24 May 2026 · ₹399 per delegate
           </p>
           <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
