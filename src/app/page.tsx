@@ -20,8 +20,8 @@ export default function Home() {
             A youth-led organization building confident voices through accessible diplomacy, dialogue, and meaningful participation.
           </p>
           <div className="hero-meta">
-            <span>🗓 PYF MUN 2026 — 23 & 24 May 2026</span>
-            <span>💻 Online Conference</span>
+            <span> PYF MUN 2026 — 23 & 24 May 2026</span>
+            <span> Online Conference</span>
             <span>₹399 per Delegate</span>
           </div>
           <div className="hero-buttons">
