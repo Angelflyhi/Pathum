@@ -42,7 +42,7 @@ export default function Events() {
                 </div>
                 <div className="event-card-body">
                   <span className={`event-status ${e.status}`}>{e.status.toUpperCase()}</span>
-                  <div style={{ fontSize: '.8rem', color: 'var(--gray-500)', marginBottom: '.75rem' }}>📅 {e.date}</div>
+                  <div style={{ fontSize: '.8rem', color: 'var(--gray-500)', marginBottom: '.75rem' }}> {e.date}</div>
                   <p style={{ fontSize: '.875rem', color: 'var(--gray-700)', lineHeight: 1.7, marginBottom: '1.25rem' }}>{e.desc}</p>
                   <span className="btn btn-outline-dark btn-sm" style={{ cursor: 'default' }}>Details Coming Soon</span>
                 </div>
