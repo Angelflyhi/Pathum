@@ -164,8 +164,8 @@ export default function PYFMUN2026() {
           <div className="card-grid card-grid-3">
             {[
               { role: 'Delegate', desc: 'Participate in committee debate and represent an assigned country or role.', link: 'https://forms.gle/mA9PM83qLguDkuYK8', icon: '🎤' },
-              { role: 'Executive Board', desc: 'Lead debate, guide delegates, and help ensure strong committee flow.', link: 'https://forms.gle/i5mFY6TjP9PqTjFM6', icon: '⚖️' },
-              { role: 'Secretariat', desc: 'Support the planning, communication, and execution of the conference.', link: 'https://forms.gle/iiVvN9kzk3LqiVEbA', icon: '📋' },
+              { role: 'Executive Board', desc: 'Lead debate, guide delegates, and help ensure strong committee flow.', link: 'https://forms.gle/iiVvN9kzk3LqiVEbA', icon: '⚖️' },
+              { role: 'Secretariat', desc: 'Support the planning, communication, and execution of the conference.', link: 'https://forms.gle/i5mFY6TjP9PqTjFM6', icon: '📋' },
             ].map(r => (
               <div key={r.role} className="apply-card">
                 <div className="apply-card-icon">{r.icon}</div>
