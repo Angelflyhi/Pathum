@@ -29,16 +29,15 @@ export default function Media() {
           </p>
           <div className="media-grid">
             {[
-              { label: 'Opening Ceremony', bg: 'linear-gradient(135deg, #0F1B2D, #7B1D1D)' },
-              { label: 'Committee Session', bg: 'linear-gradient(135deg, #7B1D1D, #9B2626)' },
-              { label: 'Delegate Moments', bg: 'linear-gradient(135deg, #1a0a0a, #0F1B2D)' },
-              { label: 'UNGA Committee', bg: 'linear-gradient(135deg, #2d0808, #7B1D1D)' },
-              { label: 'Team Photograph', bg: 'linear-gradient(135deg, #0F1B2D, #1a0a0a)' },
-              { label: 'Closing Ceremony', bg: 'linear-gradient(135deg, #5E1515, #0F1B2D)' },
+              { label: 'Opening Ceremony', src: '/media-1.jpg' },
+              { label: 'Committee Session', src: '/media-2.jpg' },
+              { label: 'Guest Speaker', src: '/media-3.jpg' },
+              { label: 'Delegate Moments', src: '/media-4.jpg' },
+              { label: 'Team Photograph', src: '/media-5.jpg' },
+              { label: 'Closing Ceremony', src: '/media-1.jpg' },
             ].map(m => (
-              <div key={m.label} className="media-thumb" style={{ background: m.bg, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '.5rem' }}>
-                <span style={{ fontSize: '2.5rem', opacity: .4 }}>📷</span>
-                <span style={{ color: 'rgba(255,255,255,.5)', fontSize: '.75rem', fontWeight: 600, letterSpacing: '.05em', textTransform: 'uppercase' }}>{m.label}</span>
+              <div key={m.label} className="media-thumb">
+                <img src={m.src} alt={m.label} />
               </div>
             ))}
           </div>
