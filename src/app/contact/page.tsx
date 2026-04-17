@@ -39,7 +39,7 @@ export default function Contact() {
               <div className="contact-icon" style={{ fontSize: '.85rem', fontWeight: 800 }}>in</div>
               <div className="contact-info">
                 <h4>LinkedIn</h4>
-                <p>Official page — coming soon</p>
+                 <a href="https://www.linkedin.com/company/pathum-youth-forum" target="_blank" rel="noopener noreferrer">Pathum Youth Forum Linkedin Page</a>
               </div>
             </div>
 
