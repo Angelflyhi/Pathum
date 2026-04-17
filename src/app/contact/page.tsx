@@ -73,8 +73,8 @@ export default function Contact() {
               </p>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '.75rem' }}>
                 <a href="https://forms.gle/mA9PM83qLguDkuYK8" target="_blank" rel="noopener noreferrer" className="btn btn-gold btn-sm">Apply as Delegate</a>
-                <a href="https://forms.gle/i5mFY6TjP9PqTjFM6" target="_blank" rel="noopener noreferrer" className="btn btn-outline btn-sm">Apply as Executive Board</a>
-                <a href="https://forms.gle/iiVvN9kzk3LqiVEbA" target="_blank" rel="noopener noreferrer" className="btn btn-outline btn-sm">Apply as Secretariat</a>
+                <a href="https://forms.gle/iiVvN9kzk3LqiVEbA" target="_blank" rel="noopener noreferrer" className="btn btn-outline btn-sm">Apply as Executive Board</a>
+                <a href="https://forms.gle/i5mFY6TjP9PqTjFM6" target="_blank" rel="noopener noreferrer" className="btn btn-outline btn-sm">Apply as Secretariat</a>
               </div>
             </div>
           </div>
