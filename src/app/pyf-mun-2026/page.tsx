@@ -49,8 +49,8 @@ export default function PYFMUN2026() {
         </p>
         <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
           <a href="https://forms.gle/mA9PM83qLguDkuYK8" target="_blank" rel="noopener noreferrer" className="btn btn-gold">Apply as Delegate</a>
-          <a href="https://forms.gle/i5mFY6TjP9PqTjFM6" target="_blank" rel="noopener noreferrer" className="btn btn-outline">Apply as Executive Board</a>
-          <a href="https://forms.gle/iiVvN9kzk3LqiVEbA" target="_blank" rel="noopener noreferrer" className="btn btn-outline">Apply as Secretariat</a>
+          <a href="https:https://forms.gle/iiVvN9kzk3LqiVEbA//forms.gle/i5mFY6TjP9PqTjFM6" target="_blank" rel="noopener noreferrer" className="btn btn-outline">Apply as Executive Board</a>
+          <a href="https://forms.gle/i5mFY6TjP9PqTjFM6" target="_blank" rel="noopener noreferrer" className="btn btn-outline">Apply as Secretariat</a>
         </div>
       </div>
 
