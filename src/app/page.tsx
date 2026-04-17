@@ -218,9 +218,16 @@ export default function Home() {
             Our pilot conference marked the beginning of Pathum Youth Forum&apos;s journey. It helped shape the tone, structure, and standards we carry forward.
           </p>
           <div className="media-grid" style={{ marginBottom: '2rem' }}>
-            {[1,2,3,4,5,6].map(i => (
-              <div key={i} className="media-thumb" style={{ background: `linear-gradient(135deg, hsl(${340 + i * 10}deg 60% ${20 + i * 3}%) , hsl(${220 + i * 5}deg 40% 20%))`, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <span style={{ color: 'rgba(255,255,255,.3)', fontSize: '2.5rem' }}>📷</span>
+            {[
+              '/media-1.jpg',
+              '/media-2.jpg',
+              '/media-3.jpg',
+              '/media-4.jpg',
+              '/media-5.jpg',
+              '/media-1.jpg',
+            ].map((src, i) => (
+              <div key={i} className="media-thumb">
+                <img src={src} alt={`Conference Glimpse ${i + 1}`} />
               </div>
             ))}
           </div>
