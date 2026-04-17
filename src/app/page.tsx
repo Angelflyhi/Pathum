@@ -245,9 +245,9 @@ export default function Home() {
           <div className="section-divider" />
           <div className="card-grid card-grid-3" style={{ marginTop: '1rem' }}>
             {[
-              { text: 'A comfortable environment for first-time delegates. Everything was clearly explained and easy to follow.', author: 'Delegate, Pilot Conference' },
-              { text: 'Well-organized and easy to navigate. I felt supported throughout the entire conference experience.', author: 'Delegate, Pilot Conference' },
-              { text: 'A good balance of guidance and independence. I left feeling more confident than when I came in.', author: 'Delegate, Pilot Conference' },
+              { text: 'A comfortable environment for first-time delegates. Everything was clearly explained and easy to follow.', author: 'United Kingdom, Pilot Conference' },
+              { text: 'Well-organized and easy to navigate. I felt supported throughout the entire conference experience.', author: 'Netherlands, Pilot Conference' },
+              { text: 'A good balance of guidance and independence. I left feeling more confident than when I came in.', author: 'Tuvalu, Pilot Conference' },
             ].map((t, i) => (
               <div key={i} className="testimonial-card">
                 <p className="testimonial-text">{t.text}</p>
@@ -268,8 +268,8 @@ export default function Home() {
           </p>
           <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
             <a href="https://forms.gle/mA9PM83qLguDkuYK8" target="_blank" rel="noopener noreferrer" className="btn btn-gold">Apply as Delegate</a>
-            <a href="https://forms.gle/i5mFY6TjP9PqTjFM6" target="_blank" rel="noopener noreferrer" className="btn btn-outline">Apply as Executive Board</a>
-            <a href="https://forms.gle/iiVvN9kzk3LqiVEbA" target="_blank" rel="noopener noreferrer" className="btn btn-outline">Apply as Secretariat</a>
+            <a href="https://forms.gle/iiVvN9kzk3LqiVEbA" target="_blank" rel="noopener noreferrer" className="btn btn-outline">Apply as Executive Board</a>
+            <a href="https://forms.gle/i5mFY6TjP9PqTjFM6" target="_blank" rel="noopener noreferrer" className="btn btn-outline">Apply as Secretariat</a>
           </div>
         </div>
       </section>
