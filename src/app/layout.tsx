@@ -74,8 +74,8 @@ function Footer() {
               <li><Link href="/pyf-mun-2026">Conference Overview</Link></li>
               <li><Link href="/pyf-mun-2026#committees">Committees</Link></li>
               <li><a href="https://forms.gle/mA9PM83qLguDkuYK8" target="_blank" rel="noopener noreferrer">Apply as Delegate</a></li>
-              <li><a href="https://forms.gle/i5mFY6TjP9PqTjFM6" target="_blank" rel="noopener noreferrer">Apply as Executive Board</a></li>
-              <li><a href="https://forms.gle/iiVvN9kzk3LqiVEbA" target="_blank" rel="noopener noreferrer">Apply as Secretariat</a></li>
+              <li><a href="https://forms.gle/iiVvN9kzk3LqiVEbA" target="_blank" rel="noopener noreferrer">Apply as Executive Board</a></li>
+              <li><a href="https://forms.gle/i5mFY6TjP9PqTjFM6A" target="_blank" rel="noopener noreferrer">Apply as Secretariat</a></li>
             </ul>
           </div>
           <div className="footer-col">
