@@ -1,12 +1,12 @@
 export const metadata = { title: 'Media — Pathum Youth Forum', description: 'A visual archive of Pathum Youth Forum conferences, events, and moments.' };
 
 const testimonials = [
-  { text: 'A welcoming experience for first-time delegates. Everything was structured and easy to follow.', author: 'Delegate, Pilot Conference' },
-  { text: 'Structured enough to feel serious, but comfortable enough to learn. A great introduction to MUN.', author: 'Delegate, Pilot Conference' },
-  { text: 'Helpful guidance throughout the conference. I felt supported at every step.', author: 'Delegate, Pilot Conference' },
-  { text: 'A positive introduction to Model United Nations. I left with more confidence than I came in with.', author: 'Delegate, Pilot Conference' },
-  { text: 'A comfortable environment for first-time delegates. Well-organized and easy to navigate.', author: 'Delegate, Pilot Conference' },
-  { text: 'A good balance of guidance and independence. Supportive enough to help beginners speak with confidence.', author: 'Delegate, Pilot Conference' },
+  { text: 'A welcoming experience for first-time delegates. Everything was structured and easy to follow.', author: 'United Kingdom, Pilot Conference' },
+  { text: 'Structured enough to feel serious, but comfortable enough to learn. A great introduction to MUN.', author: 'Netherlands, Pilot Conference' },
+  { text: 'Helpful guidance throughout the conference. I felt supported at every step.', author: 'Tuvalu, Pilot Conference' },
+  { text: 'A positive introduction to Model United Nations. I left with more confidence than I came in with.', author: 'Portugal, Pilot Conference' },
+  { text: 'A comfortable environment for first-time delegates. Well-organized and easy to navigate.', author: 'RPC- Republic Of China, Pilot Conference' },
+  { text: 'A good balance of guidance and independence. Supportive enough to help beginners speak with confidence.', author: 'Japan, Pilot Conference' },
 ];
 
 export default function Media() {
