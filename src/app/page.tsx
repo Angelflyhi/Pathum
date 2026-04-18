@@ -191,7 +191,7 @@ export default function Home() {
           </div>
           <div className="card-grid card-grid-3">
             {[
-              { cat: 'Panel', title: 'Samvidhan', desc: 'A dialogue-focused panel initiative designed to encourage reflective conversation on current topics and pressing issues.', status: 'upcoming' },
+              { cat: 'Panel', title: 'Samvidhan Panel', desc: 'A dialogue-focused panel initiative designed to encourage reflective conversation on current topics and pressing issues.', status: 'upcoming' },
               { cat: 'Wellness', title: 'Wellness Buddy', desc: 'A student wellbeing initiative created to support balance, calm, and community among young participants.', status: 'upcoming' },
               { cat: 'Workshop', title: 'MUN Skills Workshop', desc: 'Skill-building sessions on MUN procedures, public speaking, research, and resolution writing for beginners.', status: 'upcoming' },
             ].map(e => (
