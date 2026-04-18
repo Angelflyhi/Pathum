@@ -1,7 +1,8 @@
 export const metadata = { title: 'Events — Pathum Youth Forum', description: 'Panels, workshops, wellness initiatives and youth-driven programs by Pathum Youth Forum.' };
 
 const events = [
-  { cat: 'Panel', title: 'Samvidhan', status: 'upcoming', desc: 'A dialogue-focused panel initiative designed to encourage reflective conversation on current topics and pressing issues. Open to all students.', date: 'Date TBA' },
+  { cat: 'Panel', title: 'Samvidhan Panel
+  ', status: 'upcoming', desc: 'A dialogue-focused panel initiative designed to encourage reflective conversation on current topics and pressing issues. Open to all students.', date: 'Date TBA' },
   { cat: 'Wellness', title: 'Wellness Buddy', status: 'upcoming', desc: 'A student wellbeing initiative created to support balance, calm, and community. Focused on mental wellness and peer support.', date: 'Date TBA' },
   { cat: 'Workshop', title: 'MUN Skills Workshop', status: 'upcoming', desc: 'Skill-building sessions on MUN procedures, public speaking, research, writing, and diplomacy for beginners and intermediate delegates.', date: 'Date TBA' },
   { cat: 'Conference', title: 'PYF MUN 2026', status: 'upcoming', desc: 'Flagship Model United Nations conference. Five committees, two days, fully online. Open to school and college students.', date: '23 – 24 May 2026' },
