@@ -29,12 +29,12 @@ export default function Media() {
           </p>
           <div className="media-grid">
             {[
-              { label: 'Opening Ceremony', src: '/media-1.jpg' },
+              { label: 'People Grid', src: '/media-1.jpg' },
               { label: 'Committee Session', src: '/media-2.jpg' },
               { label: 'Guest Speaker', src: '/media-3.jpg' },
               { label: 'Delegate Moments', src: '/media-4.jpg' },
               { label: 'Team Photograph', src: '/media-5.jpg' },
-              { label: 'Closing Ceremony', src: '/media-1.jpg' },
+              { label: 'Avrati raturi', src: '/media-6.jpg' },
             ].map(m => (
               <div key={m.label} className="media-thumb">
                 <img src={m.src} alt={m.label} />
