@@ -224,7 +224,7 @@ export default function Home() {
               '/media-3.jpg',
               '/media-4.jpg',
               '/media-5.jpg',
-              '/media-1.jpg',
+              '/media-6.jpg',
             ].map((src, i) => (
               <div key={i} className="media-thumb">
                 <img src={src} alt={`Conference Glimpse ${i + 1}`} />
