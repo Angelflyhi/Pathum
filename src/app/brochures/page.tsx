@@ -18,11 +18,12 @@ export default function Brochures() {
           <div className="card-grid card-grid-2">
             {[
               {
-                title: 'PYF MUN 2026 Brochure',
-                sub: 'Official Conference Brochure',
+                title: "PYFMUN 2026 Beginner's Guide",
+                sub: 'Official Conference Guide',
                 desc: 'Committee information, conference details, rules of procedure, and application guidance for PYF MUN 2026.',
                 badge: '23 – 24 May 2026',
                 color: 'linear-gradient(135deg, #0F1B2D, #7B1D1D)',
+                pdfPath: "/_Beginner's Guide - PYFMUN'26.pdf",
               },
               {
                 title: 'Pathum Youth Forum Brochure',
@@ -44,10 +45,21 @@ export default function Brochures() {
                   <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '1.2rem', marginBottom: '.5rem' }}>{b.title}</h3>
                   <p style={{ fontSize: '.875rem', color: 'var(--gray-700)', marginBottom: '1.25rem', lineHeight: 1.7 }}>{b.desc}</p>
                   <div className="brochure-actions">
-                    <span className="btn btn-primary btn-sm" style={{ cursor: 'not-allowed', opacity: .7 }}>View Brochure</span>
-                    <span className="btn btn-outline-dark btn-sm" style={{ cursor: 'not-allowed', opacity: .7 }}>Download PDF</span>
+                    {b.pdfPath ? (
+                      <>
+                        <a href={b.pdfPath} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm">View PDF</a>
+                        <a href={b.pdfPath} download className="btn btn-outline-dark btn-sm">Download PDF</a>
+                      </>
+                    ) : (
+                      <>
+                        <span className="btn btn-primary btn-sm" style={{ cursor: 'not-allowed', opacity: .7 }}>View PDF</span>
+                        <span className="btn btn-outline-dark btn-sm" style={{ cursor: 'not-allowed', opacity: .7 }}>Download PDF</span>
+                      </>
+                    )}
                   </div>
-                  <p style={{ marginTop: '.75rem', fontSize: '.75rem', color: 'var(--gray-500)', fontStyle: 'italic' }}>Brochure will be available for download soon.</p>
+                  <p style={{ marginTop: '.75rem', fontSize: '.75rem', color: 'var(--gray-500)', fontStyle: 'italic' }}>
+                    {b.pdfPath ? 'Available for viewing and download.' : 'Brochure will be available for download soon.'}
+                  </p>
                 </div>
               </div>
             ))}
