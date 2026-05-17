@@ -182,10 +182,10 @@ export default function PYFMUN2026() {
       <section className="section section-alt">
         <div className="section-inner" style={{ textAlign: 'center' }}>
           <p className="section-label">Official Documents</p>
-          <h2 className="section-title">Conference Brochure</h2>
+          <h2 className="section-title">Brochures & Guides</h2>
           <div className="section-divider" style={{ margin: '1rem auto 1.5rem' }} />
           <p style={{ color: 'var(--gray-700)', fontSize: '1rem', marginBottom: '2rem', maxWidth: '540px', margin: '0 auto 2rem' }}>
-            Explore the official PYF MUN 2026 brochure for committee information, conference details, and application guidance.
+            Explore the official PYF MUN 2026 documents. The <strong>Beginner's Guide</strong> has been recently uploaded and is now available for viewing and downloading!
           </p>
           <div style={{ background: 'linear-gradient(135deg, var(--navy), var(--crimson))', height: '240px', maxWidth: '320px', margin: '0 auto 1.5rem', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <span style={{ fontSize: '5rem', opacity: .4 }}>📄</span>
