@@ -30,9 +30,8 @@ const committees = [
   {
     name: 'IP',
     fullName: 'International Press',
-    agenda: 'Agenda to be announced',
-    desc: 'The International Press committee will be covering all committees throughout the conference. Final agenda will be shared closer to the event date.',
-    tba: true,
+    agenda: 'Real-Time Media Coverage And Creative Journalism',
+    desc: 'The International Press committee will be covering all committees throughout the conference, capturing debate and key moments.',
   },
 ];
 

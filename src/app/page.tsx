@@ -124,7 +124,7 @@ export default function Home() {
                   { name: 'WHO', short: 'Combating counterfeit and substandard medicines globally.' },
                   { name: 'UNHRC', short: 'Human trafficking in conflict and post-conflict humanitarian contexts.' },
                   { name: 'UNCSW', short: "Women's economic empowerment and equal workforce participation." },
-                  { name: 'IP', short: 'International Press Committee — agenda to be announced.' },
+                  { name: 'IP', short: 'Real-Time Media Coverage And Creative Journalism.' },
                 ].map(c => (
                   <div key={c.name} style={{ background: 'rgba(255,255,255,.06)', borderLeft: '3px solid #B8960C', padding: '.9rem 1.25rem', display: 'flex', gap: '.75rem', alignItems: 'center' }}>
                     <span style={{ fontWeight: 800, fontSize: '.8rem', letterSpacing: '.1em', color: '#D4AC0D', minWidth: '52px' }}>{c.name}</span>
