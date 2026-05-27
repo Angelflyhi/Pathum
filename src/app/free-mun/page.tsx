@@ -11,7 +11,7 @@ export default function FreeMUN() {
           A free, one-day virtual conference hosted on MyMUN to make MUN experience accessible to students from all backgrounds.
         </p>
         <div style={{ display: 'inline-flex', gap: '1.5rem', flexWrap: 'wrap', justifyContent: 'center', marginBottom: '2rem' }}>
-          {['3 May 2026', 'Free Entry', 'Virtual via MyMUN'].map(tag => (
+          {['Date To Be Announced', 'Free Entry', 'Virtual via MyMUN'].map(tag => (
             <span key={tag} style={{ background: 'rgba(255,255,255,.12)', padding: '.4rem 1rem', fontSize: '.8rem', fontWeight: 600, letterSpacing: '.06em' }}>{tag}</span>
           ))}
         </div>
@@ -25,7 +25,7 @@ export default function FreeMUN() {
             <h2 className="section-title">Making MUN Free and Accessible</h2>
             <div className="section-divider" />
             <p className="section-sub" style={{ marginBottom: '1rem' }}>
-              Pathum Youth Forum proudly presents its International Model United Nations Conference, to be held on 3rd May 2026.
+              Pathum Youth Forum proudly presents its International Model United Nations Conference, to be held soon, Date To Be Announced.
             </p>
             <p className="section-sub" style={{ marginBottom: '1rem' }}>
               This special edition is being conducted as a free, one-day virtual conference with the aim of making quality Model United Nations participation accessible to students from all backgrounds.
@@ -37,7 +37,7 @@ export default function FreeMUN() {
           <div style={{ background: 'var(--off-white)', padding: '2.5rem' }}>
             <p style={{ fontSize: '.75rem', fontWeight: 700, letterSpacing: '.14em', textTransform: 'uppercase', color: 'var(--crimson)', marginBottom: '1.25rem' }}>Conference Details</p>
             {[
-              { label: 'Date', val: '3rd May 2026' },
+              { label: 'Date', val: 'To Be Announced' },
               { label: 'Mode', val: 'Virtual — MyMUN' },
               { label: 'Entry Fee', val: 'Free' },
               { label: 'Communication', val: 'WhatsApp (post-registration)' },
