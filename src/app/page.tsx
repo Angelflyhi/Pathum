@@ -19,13 +19,7 @@ export default function Home() {
           <p className="hero-sub">
             A youth-led organization building confident voices through accessible diplomacy, dialogue, and meaningful participation.
           </p>
-          <div className="hero-meta">
-            <span> PYF MUN 2026 — 23 & 24 May 2026</span>
-            <span> Online Conference</span>
-            <span>₹399 per Delegate</span>
-          </div>
           <div className="hero-buttons">
-            <Link href="/pyf-mun-2026" className="btn btn-primary">Explore PYF MUN 2026</Link>
             <Link href="/events" className="btn btn-outline">View Events</Link>
           </div>
         </div>
