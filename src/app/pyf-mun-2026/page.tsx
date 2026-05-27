@@ -36,9 +36,55 @@ const committees = [
   },
 ];
 
+const guestSpeakers = [
+  {
+    name: 'Mr. Paramjeet Jaglan',
+    image: '/paramjeetjaglan.jpg',
+    bio: 'Rooted in the belief that leadership begins with action, Paramjeet Jaglan brings together science, diplomacy, and youth advocacy to create impact beyond conversations. Through global engagement and evidence-driven perspectives, he champions a future where innovation, inclusion, and young voices shape decisions that matter.',
+    roles: ['UN Youth Liaison', 'Global Governance Advocate', 'Food Systems & Sustainability'],
+    linkedin: 'https://www.linkedin.com/in/paramjeet-jaglan306067284/',
+    instagram: 'https://www.instagram.com/paramjeet.jaglan/'
+  },
+  {
+    name: 'Ms. Harshjeet Kaur',
+    image: '/harshjeetkaur.jpg',
+    bio: 'A passionate English teacher and an exceptional orator, Ms. Harshjeet Kaur brings with her a remarkable command over the English language and an inspiring presence on stage. Her eloquence, depth of knowledge, and years of nurturing young minds have made her a guiding light for students passionate about communication, leadership, and global affairs. Driven by one belief: that meaningful change happens when knowledge inspires action and young voices are given space to lead.',
+    roles: ['Educator', 'Orator', 'Youth Mentor'],
+    linkedin: '#',
+    instagram: '#'
+  }
+];
+
 export default function PYFMUN2026() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Event",
+            "name": "Pathum Youth Forum Model United Nations 2026",
+            "startDate": "2026-05-23",
+            "endDate": "2026-05-24",
+            "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+            "eventStatus": "https://schema.org/EventScheduled",
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://pathumyouthforum.com"
+            },
+            "performer": guestSpeakers.map(s => ({
+              "@type": "Person",
+              "name": s.name
+            })),
+            "offers": {
+              "@type": "Offer",
+              "price": "399",
+              "priceCurrency": "INR"
+            }
+          })
+        }}
+      />
       {/* HERO */}
       <div style={{ background: 'linear-gradient(135deg, #0F1B2D 0%, #2d0808 60%, #7B1D1D 100%)', padding: '8rem 2rem 5rem', marginTop: 'var(--nav-h)', color: 'white', textAlign: 'center' }}>
         <p style={{ fontSize: '.75rem', fontWeight: 700, letterSpacing: '.2em', textTransform: 'uppercase', color: '#D4AC0D', marginBottom: '1rem' }}>Flagship Conference</p>
@@ -100,6 +146,37 @@ export default function PYFMUN2026() {
             ].map(item => (
               <div key={item} style={{ display: 'flex', gap: '.75rem', alignItems: 'center', padding: '.6rem 0', borderBottom: '1px solid var(--gray-200)', fontSize: '.9rem', color: 'var(--gray-700)' }}>
                 <span style={{ color: 'var(--crimson)', fontWeight: 700 }}>✓</span> {item}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* GUEST SPEAKERS */}
+      <section className="section" id="guest-speakers">
+        <div className="section-inner">
+          <p className="section-label">Voices of Inspiration</p>
+          <h2 className="section-title">Guest Speakers</h2>
+          <div className="section-divider" />
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', marginTop: '2.5rem' }}>
+            {guestSpeakers.map(speaker => (
+              <div key={speaker.name} style={{ background: 'var(--gray-50)', padding: '2rem', borderRadius: '4px', textAlign: 'center' }}>
+                <div style={{ width: '120px', height: '120px', margin: '0 auto 1.5rem', borderRadius: '50%', overflow: 'hidden', border: '3px solid var(--crimson)' }}>
+                  <img src={speaker.image} alt={speaker.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                </div>
+                <h3 style={{ fontSize: '1.4rem', fontFamily: 'Playfair Display, serif', marginBottom: '.5rem', color: 'var(--navy)' }}>{speaker.name}</h3>
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '.5rem', justifyContent: 'center', marginBottom: '1rem' }}>
+                  {speaker.roles.map(r => (
+                    <span key={r} style={{ fontSize: '.75rem', background: 'var(--gray-200)', padding: '.2rem .6rem', borderRadius: '2px', color: 'var(--gray-800)' }}>{r}</span>
+                  ))}
+                </div>
+                <p style={{ fontSize: '.9rem', color: 'var(--gray-700)', lineHeight: 1.6, marginBottom: '1.5rem', textAlign: 'justify' }}>
+                  {speaker.bio}
+                </p>
+                <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
+                  {speaker.linkedin !== '#' && <a href={speaker.linkedin} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--navy)', fontWeight: 600 }}>LinkedIn</a>}
+                  {speaker.instagram !== '#' && <a href={speaker.instagram} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--crimson)', fontWeight: 600 }}>Instagram</a>}
+                </div>
               </div>
             ))}
           </div>
